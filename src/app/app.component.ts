@@ -29,7 +29,6 @@ export class AppComponent implements OnInit {
       if(this.focusedInputIndex === 3){
         this.focusedInputIndex = 0;
       }
-      console.log(this.focusedInputIndex);
     }
   }
 }
